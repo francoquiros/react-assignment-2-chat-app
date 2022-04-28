@@ -1,0 +1,35 @@
+.Chat {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+}
+.buttonWrapper {
+  position: sticky;
+  top: 5px;
+  z-index: 1;
+  width: 100%;
+}
+.sortIcon {
+  margin-left: 5px;
+  width: 24px;
+  height: 24px;
+}
+.chats .bubble-container .bubble {
+  border-radius: 0;
+}
+.chats .new-message {
+  position: sticky;
+  bottom: 10px;
+}
+@media (min-width: 720px) {
+  .Chat {
+    padding: 0 15%;
+  }
+}
+@media (min-width: 1200px) {
+  .Chat {
+    padding: 0 30%;
+  }
+}
